@@ -64,6 +64,10 @@ const redirectURI = 'http://127.0.0.1:5500'; // URL do Live Server</code></pre>
         <li>jQuery: Para manipulação de DOM e AJAX.</li>
         <li>Todoist API: Para gerenciar tarefas.</li>
     </ul>
+    <h2>Teste ja!<h2>
+        <ul>
+            <li> Deploy do projeto : https://github.com/Jonas-Leite-P-Programador/New-tasks.git</li>
+        </ul>
     <h2>Contribuição</h2>
     <p>Sinta-se à vontade para contribuir com o projeto. Para isso, siga os passos abaixo:</p>
     <ol>
