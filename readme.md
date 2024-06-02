@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>Gerenciador de Tarefas</h1>
-    !['https://i.postimg.cc/y62rbZ01/Screenshot-20240602-153139.png']()
+    <img src='https://i.postimg.cc/y62rbZ01/Screenshot-20240602-153139.png'/>
     <p>Este é um simples gerenciador de tarefas que utiliza jQuery e consome a API do Todoist para gerenciar suas tarefas de forma eficiente. O projeto inclui funcionalidades para autenticar com o Todoist, adicionar novas tarefas, listar tarefas existentes e deletar tarefas.</p>
     <h2>Funcionalidades</h2>
     <ul>
