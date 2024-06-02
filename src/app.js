@@ -1,10 +1,9 @@
 $(document).ready(function() {
     const clientID = '7fbf63f7275d48e9869b91c3a20ddad1';
     const clientSecret = 'f3ad92c802ca44e9be672b533b56e953';
-    const redirectURI = 'https://jonas-leite-p-programador.github.io/New-tasks/' ; 
+    const redirectURI = 'http://127.0.0.1:5500' ; 
     let accessToken = null;
 
-    //local url redirect with live server 'http://127.0.0.1:5500': 
    
     $('#login').click(function() {
         const authURL = `https://todoist.com/oauth/authorize?client_id=${clientID}&scope=data:read_write&state=secret&redirect_uri=${redirectURI}`;
