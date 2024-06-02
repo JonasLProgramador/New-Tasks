@@ -39,12 +39,18 @@ const redirectURI = 'http://127.0.0.1:5500'; // URL do Live Server</code></pre>
     <p>Após a autenticação, adicione novas tarefas, visualize e delete tarefas conforme necessário.</p>
     <h2>Estrutura do Projeto</h2>
     <pre><code>.
-├── index.html
-├── styles.css
-├── app.js
+├── src        
+    ├── styles
+        ├── home.css
+        ├── about.css
+    ├── app.js
+    ├── pages
+        ├── about.html
+├── index.html       
 └── README.md</code></pre>
-    <p><code>index.html</code>: Contém a estrutura HTML da aplicação.</p>
-    <p><code>styles.css</code>: Contém o estilo CSS para a aplicação.</p>
+    <p><code>index.html</code>: Contém a estrutura HTML  da pagina inicial da aplicação.</p>
+    <p><code>pasta pages</code>: Contém todas estruturas HTML de outras páginas .</p>
+    <p><code>pasta styles</code>: Contém todos estilos  de CSS para a aplicação.</p>
     <p><code>app.js</code>: Contém a lógica JavaScript para interação com a API do Todoist.</p>
     <h2>Uso</h2>
     <ul>
