@@ -26,8 +26,8 @@
     <p>Clone o repositório:</p>
     <pre><code>git clone https://github.com/seu-usuario/gerenciador-de-tarefas.git
 cd gerenciador-de-tarefas</code></pre>
-    <p>Configure sua aplicação no Todoist Developer e obtenha seu Client ID e Client Secret.</p>
-    <p>Atualize as variáveis <code>clientID</code>, <code>clientSecret</code> e <code>redirectURI</code> no arquivo <code>app.js</code>:</p>
+    <p> -Opcional : configure sua aplicação no Todoist Developer e obtenha seu Client ID e Client Secret.</p>
+    <p> -Opcional : Atualize as variáveis <code>clientID</code>, <code>clientSecret</code> e <code>redirectURI</code> no arquivo <code>app.js</code>:</p>
     <pre><code>const clientID = 'seu_client_id';
 const clientSecret = 'seu_client_secret';
 const redirectURI = 'http://127.0.0.1:5500'; // URL do Live Server</code></pre>
