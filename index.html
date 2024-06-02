@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Tasks</title>
+    <link rel="stylesheet" href="./src/styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="nav">
+      <a href="http://127.0.0.1:5500">
+        <img
+          width="100"
+          class="icon"
+          src="./src/assets/_2de0f467-9006-4b33-b329-a2132fda6481.jpeg"
+         />
+      </a>
+    </header>
+    <main class="main">
+      <h1>New Tasks</h1>
+      <h2>O seu gerenciador de tarefas favorito!</h2>
+      <button id="login">Login com Todoist</button>
+      <input
+        type="text"
+        id="new-task"
+        placeholder="Nova Tarefa"
+        style="display: none"
+      />
+      <p class="paragraph">
+        Faça login ou crie sua conta no todoist e comece ja a gerenciar suas
+        tarefas
+      </p>
+      <button id="add-task" style="display: none">Adicionar</button>
+      <ul id="task-list"></ul>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="./src/app.js"></script>
+    </main>
+  </body>
+</html>

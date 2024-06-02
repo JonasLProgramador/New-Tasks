@@ -1,0 +1,90 @@
+body {
+    font-family: Inter, sans-serif;
+    background-color: #feddcc;
+}
+
+h1 {
+    color: #38575e;
+}
+h2{
+    color: #38575e;
+    font-size: 1.4rem;
+}
+.icon{
+ border-radius:9%;
+ transition: ease-in-out 0.4s;
+}
+.icon:hover{
+    transform: scale(1.3);
+}
+.main{
+   text-align: center;
+}
+#new-task {
+    padding: 10px;
+    margin-right: 10px;
+    background-color:#38575e;
+    color: #FEDDCC;
+    width: 19rem;
+    height: 1.5rem;
+    border-radius: 3.5%;
+}
+#new-task::placeholder {
+    color: #FEDDCC;
+}
+
+#add-task {
+    padding: 10px;
+    text-align: center;
+    width: 15rem;
+    height: 3rem;
+    border-radius: 4.5%;
+    font-size:1.3rem;
+    color:#feddcc;
+    background-color:#38575e ;
+    border: solid 1px #38575e;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.0);
+    transition:  ease-in-out 0.3s;
+    margin-bottom: 4rem;
+}
+#add-task:hover{
+ transform: scale(1.3);
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    text-overflow:hidden;
+    white-space-collapse: break-spaces;
+   
+}
+#task-list li {
+    background: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+#login{
+    text-align: center;
+    width: 20rem;
+    height: 60px;
+    border-radius: 4.5%;
+    font-size:1.7rem;
+    color:#38575e;
+    border: solid 1px #38575e;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transition: ease-out 0.3s;
+    
+}
+#login:hover{
+    transform: scale(1.3);
+    color: #FEDDCC;
+    background-color: #38575e;
+}
+.delete-btn {
+    color: red;
+    cursor: pointer;
+    margin: 10px;
+}
